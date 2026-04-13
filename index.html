@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game Pro Max</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <h1>🐍 Snake Game</h1>
+
+    <div class="container">
+        <div class="topPanel">
+            <div class="scoreBoard">
+                <h2>Score: <span id="score">0</span></h2>
+                <h3>High Score: <span id="highScore">0</span></h3>
+                <h3>Level: <span id="level">1</span></h3>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="startBtn">Start</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="restartBtn">Restart</button>
+            <button id="musicBtn">🔊 Music</button>
+        </div>
+
+        <div class="canvasWrapper">
+            <canvas id="gameCanvas"></canvas>
+        </div>
+
+        <!-- Mobile Controls -->
+        <div class="mobileControls">
+            <div class="mobileRow">
+                <button class="controlBtn" onclick="setDir('UP')">⬆</button>
+            </div>
+            <div class="mobileRow">
+                <button class="controlBtn" onclick="setDir('LEFT')">⬅</button>
+                <button class="controlBtn centerBtn">●</button>
+                <button class="controlBtn" onclick="setDir('RIGHT')">➡</button>
+            </div>
+            <div class="mobileRow">
+                <button class="controlBtn" onclick="setDir('DOWN')">⬇</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="gameOverBox">
+        <h1>Game Over 😢</h1>
+        <button onclick="restartGame()">Play Again</button>
+    </div>
+
+    <div id="levelBox">
+        <h1>🎉 Level Completed!</h1>
+        <button onclick="nextLevel()">Next Level</button>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="bg.mp3" type="audio/mpeg" />
+    </audio>
+
+    <audio id="gameOverSound">
+        <source src="over.mp3" type="audio/mpeg" />
+    </audio>
+
+    <audio id="eatSound">
+        <source src="https://cdn.pixabay.com/download/audio/2022/03/10/audio_270f49b2d3.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
