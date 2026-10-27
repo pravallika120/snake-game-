@@ -33,7 +33,9 @@ snake-game/
 ```
 
 📸 Project Preview
+## 📸 Project Preview
 
+![Snake Game Preview](image.png)
 
 
 ## 🎮 How to Play
