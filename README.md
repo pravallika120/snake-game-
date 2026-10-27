@@ -10,8 +10,11 @@ A fun and interactive Snake Game developed using HTML, CSS, and JavaScript. Cont
 - 🎨 Simple and user-friendly interface
 - 💻 Runs in a web browser
 
-🛠️ Skills Used
-HTML5 CSS3 VS Code GitHub
+## 🛠️ Skills Used
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) 
 
 ## 📂 Project Structure
 
