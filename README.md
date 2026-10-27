@@ -10,13 +10,8 @@ A fun and interactive Snake Game developed using HTML, CSS, and JavaScript. Cont
 - 🎨 Simple and user-friendly interface
 - 💻 Runs in a web browser
 
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- GitHub
-- Visual Studio Code
+🛠️ Skills Used
+HTML5 CSS3 VS Code GitHub
 
 ## 📂 Project Structure
 
@@ -32,7 +27,6 @@ snake-game/
 └── README.md
 ```
 
-📸 Project Preview
 ## 📸 Project Preview
 
 ![Snake Game Preview](image.png)
@@ -46,13 +40,24 @@ snake-game/
 4. Avoid hitting the walls or your own body.
 5. Try to achieve your highest score!
 
-## ⚙️ How to Run the Project
+## ⚙️ How to Run
 
-1. Download or clone this repository.
-🎮 [Click here to play Snake Game](https://pravallika120.github.io/snake-game-/)
-2. Open the project folder in Visual Studio Code.
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/pravallika120/snake-game-.git
+   ```
+
+2. Open the project folder in VS Code or any code editor.
 3. Open `index.html` in your browser.
-4. Start playing!
+4. Start playing and enjoy the game! 🎉
+
+## 🌐 Live Demo
+
+Play the game online without downloading the code:
+
+[🎮 Click here to play Snake Game](https://pravallika120.github.io/snake-game-/)
+
 
 ## 💡 What I Learned
 
